@@ -34,6 +34,7 @@ public class ThreeSum {
                     list.add(nums[l]);
                     list.add(nums[r]);
                     ans.add(list);
+
                     while(l+1 < nums.length && nums[l+1] == nums[l]) l++;
                     l++;
                     while(r-1 >= 0 && nums[r-1] == nums[r]) r--;
