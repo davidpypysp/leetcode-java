@@ -16,5 +16,7 @@ public class Test {
         System.out.println(Math.sqrt(Integer.MAX_VALUE));
         System.out.println(46340 * 46340);
         System.out.println(46341 * 46341);
+        System.out.println("Hello Macbook!");
+
     }
 }
