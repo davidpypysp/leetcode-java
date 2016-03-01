@@ -1,3 +1,6 @@
-[
-[[[9,9,4],[6,6,8],[2,1,1]]]
-]
+[["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]
+
+public class so     vvcv
+
+#include<stdio.h>
+int main ()
