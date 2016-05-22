@@ -12,6 +12,7 @@ public class FindMinimumInRotatedSortedArray {
         }
 
         while(l < r) {
+
             if(l == r - 1) {
                 ans = nums[l];
                 break;

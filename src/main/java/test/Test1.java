@@ -1,5 +1,8 @@
 package test;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.TreeMap;
 
 /**
@@ -8,9 +11,8 @@ import java.util.TreeMap;
 public class Test1 {
     public static void main(String[] args) {
         int nums[] = {3, 1, 3, 2, 4, 5};
-        TreeMap<Integer, Integer> tm = new TreeMap<Integer, Integer>();
-        for(int i = 0; i < nums.length; i++) {
-            tm.put(nums[i], i);
-        }
+        List<int[]> list = Arrays.asList(nums);
+        Collections.reverse(list);
+        System.out.println("finished");
     }
 }
